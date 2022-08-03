@@ -6,7 +6,7 @@
     "webpack": "nodemon express",
     "start": "node ./bin/www",
     "dev": "ts-node ./app.js",
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    "build": "rm -rf build/ && tsc"
   },
   "dependencies": {
     "@prisma/client": "^3.14.0",
